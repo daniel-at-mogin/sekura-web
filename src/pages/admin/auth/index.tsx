@@ -68,6 +68,7 @@ const AdminAuth = () => {
                         {...field}
                         id="password"
                         type={passwordVisible ? "text" : "password"}
+                        aria-invalid={fieldState.invalid}
                         className="pr-10"
                       />
                       <Button
